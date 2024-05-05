@@ -1,0 +1,50 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    align-items: center;
+}
+
+.searchResultBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10%;
+    align-items: center;
+}
+
+.warningLogo{
+    display: none;
+    position: relative;
+    z-index: 5;
+    margin-top: 145%;
+    margin-left: -350%;
+    height: 15vmin;
+    width: 30vmin;
+}
+
+.ZigZagFrameImg{
+    height: 60vmin;
+    width: 50vmin;
+}
+
+.laFaceBox{
+    margin-top: -97.9%;
+    margin-left: 16.4%;
+    height: 38.3vmin;
+    width: 33vmin;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.laFaceImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.searchBarUI{
+    display: flex;
+    margin-top: 30%;
+    max-width: 20vmin;
+}
