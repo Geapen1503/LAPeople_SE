@@ -5,7 +5,6 @@ import SearchBar from "./components/LaSearchBar";
 function App() {
   return (
       <div className="App">
-          
             <SearchBar/>
       </div>
   );
